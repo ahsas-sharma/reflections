@@ -6,7 +6,7 @@ Viewing the diff between the two versions showed which lines in the code were ch
 
 #2 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-In a general sense, this can allow you to compare your progress over time, spot problems that were particulary troublesome and help you focus to strengthening these aspects. Any content of the file that was removed at some point but required again in the future can now be recovered easily.
+Well, in a general sense, this can allow you to compare your progress over time, spot problems that were particulary troublesome and help you focus to strengthening these aspects. Any content of the file that was removed at some point but required again in the future can now be recovered easily.
 
 #3 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
 
