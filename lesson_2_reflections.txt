@@ -7,3 +7,5 @@ The staging area provides a space to prepare the files that will be commit. If m
 #3 How can you use the staging area to make sure you have one commit per logical change?
 By add files to staging area after one logical change is completed, we can ensure that a single commit is carried out for that specific file after a specific change.
 
+#4 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would be particularly useful when you want to experiment with something new. I would consider branching out when the change is big enough and also doesn't necessary fit into the actual master plan. 
