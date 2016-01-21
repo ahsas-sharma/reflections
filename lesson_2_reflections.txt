@@ -12,3 +12,6 @@ Branches would be particularly useful when you want to experiment with something
 
 #5 How do the diagrams help you visualize the branch structure?
 Diagrams make it easy to visualize the flow between commits and the branches.
+
+#6 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches combines all the changes made since the branch diverged from its parent. In a way it creates a new master that contains the changes from the master branch and the one that diverged from it. The way it is represented in the diagram allows us to visualize it in the most correct manner.
