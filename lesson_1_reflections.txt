@@ -1,31 +1,23 @@
 lesson_1_reflections
 
 #1 How did viewing a diff between two versions of a file help you see the bug that was introduced?
-
 Viewing the diff between the two versions showed which lines in the code were changed. I could then see the typo directly in the results of the diff command or navigate to the appropriate line in the code and inspect it in further depth.
 
 #2 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-Well, in a general sense, this can allow you to compare your progress over time, spot problems that were particulary troublesome and help you focus to strengthening these aspects. Any content of the file that was removed at some point but required again in the future can now be recovered easily.
+Well, in a general sense, this can allow you to compare your progress over time, spot problems that were particularly troublesome and help you focus to strengthening these aspects. Any content of the file that was removed at some point but required again in the future can now be recovered easily.
 
 #3 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
-
 Through committing manually, you can fully understand the purpose behind each commit. In this case, each commit will be valuable and purposeful as compared to having automatically saved versions with a bunch of random changes at certain points in time.
 
 #4 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
-
 I think systems like Git aim to provide better version control for the whole project and that requires tracking multiple inter-related files. A single commit for the entire repository would ensure that the project as a whole is being tracked, not just single files.
 
 #5 How can you use the commands git log and git diff to view the history of files?
-
 git log - provides a list of commits along with each commit id, time and message, starting with the latest one. From here we can choose which two commits we want to compare and copy their commit id. The git diff command can then be used with the two commit ids passed on as arguments. In the results, you can see the removed lines in red and the added lines in green.
 
 How might using version control make you more confident to make changes that could break something?
-
 Using version control, I can confidently investigate into all the changes made to the code through commits. After isolating the commit id wherein the bug was introduced, I can check the diff compared to the previous version, view the lines that were added or removed and understand the root cause of the bug.
 
 Now that you have your workspace set up, what do you want to try using Git for?
-
-My primary goal is to learn the use of Git for working with Xcode. 
-
-
+My primary goal is to learn the use of Git for working with Xcode.
