@@ -15,3 +15,6 @@ Diagrams make it easy to visualize the flow between commits and the branches.
 
 #6 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging two branches combines all the changes made since the branch diverged from its parent. In a way it creates a new master that contains the changes from the master branch and the one that diverged from it. The way it is represented in the diagram allows us to visualize it in the most correct manner.
+
+#7 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+While automatic merging is useful, in case of conflicts, manual merging provides the perfect opportunity to ensure that you are committing the correct changes to your code. Pros of automatic merging would be speed and convenience while cons could be potential of mistakes or guess work. Pros of manual merging would be high accuracy and control over your changes while its cons could be that its more time consuming.
